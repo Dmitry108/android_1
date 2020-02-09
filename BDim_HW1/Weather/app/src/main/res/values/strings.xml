@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="mow">Moscow</string>
+    <string name="prg">Prague</string>
+    <string name="par">Paris</string>
+    <string name="ber">Berlin</string>
+    <string name="cloudly">Cloudly</string>
+    <string name="clear">Clear</string>
+    <string name="rain">It is rain</string>
+
+</resources>

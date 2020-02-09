@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="mow">Москва</string>
+    <string name="prg">Прага</string>
+    <string name="par">Париж</string>
+    <string name="ber">Берлин</string>
+    <string name="cloudly">Облачно</string>
+    <string name="clear">Ясно</string>
+    <string name="rain">Дождь</string>
+</resources>
