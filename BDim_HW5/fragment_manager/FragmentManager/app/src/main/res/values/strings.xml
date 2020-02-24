@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fragment Manager</string>
+    <string name="add">Добавить</string>
+    <string name="remove">Удалить</string>
+    <string name="replace">Заменить</string>
+    <string name="fragment1">Фрагмент1</string>
+    <string name="fragment2">Фрагмент2</string>
+    <string name="fragment3">Фрагмент3</string>
+    <string name="back">Back</string>
+    <string name="back_stack">Back stack</string>
+</resources>
