@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="txt_sky">
+        <item>Ясно</item>
+        <item>Переменная облачность</item>
+        <item>Облачно</item>
+        <item>Дождь</item>
+        <item>Молния</item>
+        <item>Снег</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>Северный</item>
+        <item>Северо-восточный</item>
+        <item>Весточный</item>
+        <item>Юго-восточный</item>
+        <item>Южный</item>
+        <item>Юго-Западный</item>
+        <item>Западный</item>
+        <item>Северо-западный</item>
+    </string-array>
+    <string name="app_name">Погода</string>
+    <string name="mow">Москва</string>
+    <string name="prg">Прага</string>
+    <string name="par">Париж</string>
+    <string name="ber">Берлин</string>
+    <string name="speed">м/с</string>
+    <string name="wiki">https://ru.wikipedia.org/wiki/</string>
+    <string name="choiсeCity">Введите город</string>
+    <string name="settings">Настройки</string>
+    <string name="temperature">Температура</string>
+    <string name="cloudiness">Облачность</string>
+    <string name="wind">Ветер</string>
+    <string name="pressure">Давление</string>
+    <string name="humidity">Влажность</string>
+    <string name="ok">OK</string>
+    <string name="theme">Тема</string>
+    <string name="light">Светлая</string>
+    <string name="dark">Темная</string>
+    <string name="language">Язык</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="press">мм рт. ст.</string>
+    <string name="lastCities">Последние просмотренные города</string>
+    <string name="additional_parameters">Additional parametrs</string>
+</resources>
