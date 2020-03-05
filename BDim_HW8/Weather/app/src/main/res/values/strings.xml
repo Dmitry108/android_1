@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string-array name="cities">
+        <item>@string/mow</item>
+        <item>@string/ber</item>
+        <item>@string/par</item>
+        <item>@string/prg</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>North</item>
+        <item>North-East</item>
+        <item>East</item>
+        <item>South-East</item>
+        <item>South</item>
+        <item>South-West</item>
+        <item>West</item>
+        <item>North-West</item>
+    </string-array>
+    <string-array name="txt_sky">
+        <item>Clear</item>
+        <item>Partly cloudy</item>
+        <item>Cloudy</item>
+        <item>Rain</item>
+        <item>Lightning</item>
+        <item>Snow</item>
+    </string-array>
+    <string name="mow">Moscow</string>
+    <string name="prg">Prague</string>
+    <string name="par">Paris</string>
+    <string name="ber">Berlin</string>
+    <string name="speed">m/s</string>
+    <string name="press">mmHg</string>
+    <string name="wiki">https://en.wikipedia.org/wiki/</string>
+    <string name="choiсeCity">Enter city</string>
+    <string name="settings">Settings</string>
+    <string name="temperature">Temperature</string>
+    <string name="cloudiness">Cloidiness</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="ok">OK</string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="lastCities">Last cities</string>
+    <string name="additional_parameters">Additional parametrs</string>
+    <string name="refresh">Refresh</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lastCities">
+        <item>@string/mow</item>
+        <item>@string/ber</item>
+        <item>@string/par</item>
+    </string-array>
+</resources>
