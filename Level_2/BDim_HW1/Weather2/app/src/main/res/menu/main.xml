@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Настройки"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="10"
+        android:title="Добавить"
+
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="20"
+        android:title="Очистить"
+
+        app:showAsAction="never" />
+</menu>

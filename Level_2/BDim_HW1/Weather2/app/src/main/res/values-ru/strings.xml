@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="txt_sky">
+        <item>Ясно</item>
+        <item>Переменная облачность</item>
+        <item>Облачно</item>
+        <item>Дождь</item>
+        <item>Молния</item>
+        <item>Снег</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>Штиль</item>
+        <item>Северный</item>
+        <item>Северо-восточный</item>
+        <item>Весточный</item>
+        <item>Юго-восточный</item>
+        <item>Южный</item>
+        <item>Юго-Западный</item>
+        <item>Западный</item>
+        <item>Северо-западный</item>
+    </string-array>
+    <string name="app_name">Погода_2</string>
+    <string name="ber">Берлин</string>
+    <string name="mow">Москва</string>
+    <string name="par">Париж</string>
+    <string name="prg">Прага</string>
+    <string name="cloudly">Облачно</string>
+    <string name="choice_city">Введите город</string>
+    <string name="settings">Настройки</string>
+    <string name="extra_parameters">Дополнительные параметры</string>
+    <string name="sun_moon">Солнце и луна</string>
+    <string name="wind">Ветер</string>
+    <string name="m_s">м/с</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="mmHg">мм рт.</string>
+    <string name="lastCities">Последние просмотренные города</string>
+    <string name="theme">Тема</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="language">Язык</string>
+    <string name="wiki">https://ru.wikipedia.org/wiki/</string>
+    <string name="browser_abs">Браузер не найден</string>
+</resources>
