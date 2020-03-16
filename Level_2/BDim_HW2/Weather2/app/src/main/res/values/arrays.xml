@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="img_sky">
+        <item>@drawable/sun</item>
+        <item>@drawable/sun_clouds</item>
+        <item>@drawable/clouds</item>
+        <item>@drawable/rain</item>
+        <item>@drawable/lightning</item>
+        <item>@drawable/snow</item>
+    </integer-array>
+</resources>

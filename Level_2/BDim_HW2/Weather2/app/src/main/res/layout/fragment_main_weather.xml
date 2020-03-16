@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/small_margin"
+    android:layout_marginTop="@dimen/small_margin">
+
+    <TextView
+        android:id="@+id/tvw_date_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:textSize="@dimen/main_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvw_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/large_text_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvw_date_today" />
+
+    <TextView
+        android:id="@+id/tvw_temperature_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/large_text_size"
+        app:layout_constraintEnd_toStartOf="@+id/img_sky"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvw_city" />
+
+    <ImageView
+        android:id="@+id/img_sky"
+        android:layout_width="@dimen/large_image_size"
+        android:layout_height="@dimen/large_image_size"
+        android:layout_margin="@dimen/small_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@id/tvw_temperature_now"
+        app:layout_constraintTop_toBottomOf="@id/tvw_city" />
+
+    <TextView
+        android:id="@+id/tvw_sky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:textSize="@dimen/main_text_size"
+        app:layout_constraintStart_toStartOf="@id/img_sky"
+        app:layout_constraintTop_toBottomOf="@id/img_sky" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
