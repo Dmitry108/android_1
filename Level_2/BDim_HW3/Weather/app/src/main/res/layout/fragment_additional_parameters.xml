@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fmt_additional_parameters"
+    android:weightSum="3"
+    android:layout_margin="@dimen/small_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/main_text_size"
+            android:text="@string/wind" />
+
+        <ImageView
+            android:id="@+id/img_wind"
+            android:layout_width="@dimen/middle_image_size"
+            android:layout_height="@dimen/middle_image_size"
+            android:layout_marginTop="@dimen/small_margin"
+            app:srcCompat="@drawable/wind" />
+
+        <TextView
+            android:id="@+id/tvw_wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/main_text_size"
+            android:text="@string/humidity" />
+
+        <ImageView
+            android:id="@+id/img_humidity"
+            android:layout_width="@dimen/middle_image_size"
+            android:layout_height="@dimen/middle_image_size"
+            android:layout_marginTop="@dimen/small_margin"
+            app:srcCompat="@drawable/humidity" />
+
+        <TextView
+            android:id="@+id/tvw_humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/main_text_size"
+            android:text="@string/pressure" />
+
+        <ImageView
+            android:id="@+id/img_pressure"
+            android:layout_width="@dimen/middle_image_size"
+            android:layout_height="@dimen/middle_image_size"
+            android:layout_marginTop="@dimen/small_margin"
+            app:srcCompat="@drawable/pressure" />
+
+        <TextView
+            android:id="@+id/tvw_pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin"/>
+    </LinearLayout>
+</LinearLayout>
