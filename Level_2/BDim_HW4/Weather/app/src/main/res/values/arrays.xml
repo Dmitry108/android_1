@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="img_sky">
+        <item>@drawable/sun</item>
+        <item>@drawable/sun_clouds</item>
+        <item>@drawable/clouds</item>
+        <item>@drawable/rain</item>
+        <item>@drawable/sun_cloud_rain</item>
+        <item>@drawable/lightning</item>
+        <item>@drawable/snow</item>
+        <item>@drawable/compass</item>
+    </integer-array>
+    <string-array name="pop_cities">
+        <item>@string/mow</item>
+        <item>@string/prg</item>
+        <item>@string/par</item>
+        <item>@string/ber</item>
+        <item>@string/lon</item>
+        <item>@string/ams</item>
+        <item>@string/ath</item>
+        <item>@string/mad</item>
+        <item>@string/vie</item>
+        <item>@string/bud</item>
+        <item>@string/bru</item>
+        <item>@string/waw</item>
+        <item>@string/beg</item>
+        <item>@string/rom</item>
+        <item>@string/bts</item>
+        <item>@string/dub</item>
+        <item>@string/zag</item>
+        <item>@string/msq</item>
+        <item>@string/iev</item>
+    </string-array>
+</resources>
