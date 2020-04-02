@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="txt_sky">
+        <item>Ясно</item>
+        <item>Переменная облачность</item>
+        <item>Облачно</item>
+        <item>Дождь</item>
+        <item>Молния</item>
+        <item>Снег</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>Штиль</item>
+        <item>Северный</item>
+        <item>Северо-восточный</item>
+        <item>Восточный</item>
+        <item>Юго-восточный</item>
+        <item>Южный</item>
+        <item>Юго-Западный</item>
+        <item>Западный</item>
+        <item>Северо-западный</item>
+    </string-array>
+    <string name="app_name">Погода</string>
+    <string name="ber">Берлин</string>
+    <string name="mow">Москва</string>
+    <string name="par">Париж</string>
+    <string name="prg">Прага</string>
+    <string name="lon">Лондон</string>
+    <string name="ams">Амстердам</string>
+    <string name="ath">Афины</string>
+    <string name="mad">Мадрид</string>
+    <string name="vie">Вена</string>
+    <string name="bud">Будапешт</string>
+    <string name="bru">Брюссель</string>
+    <string name="waw">Варшава</string>
+    <string name="beg">Белград</string>
+    <string name="rom">Рим</string>
+    <string name="bts">Братислава</string>
+    <string name="dub">Дублин</string>
+    <string name="zag">Загреб</string>
+    <string name="msq">Минск</string>
+    <string name="iev">Киев</string>
+    <string name="cloudly">Облачно</string>
+    <string name="choice_city">Введите город</string>
+    <string name="settings">Настройки</string>
+    <string name="extra_parameters">Дополнительные параметры</string>
+    <string name="sun_moon">Солнце и луна</string>
+    <string name="wind">Ветер</string>
+    <string name="m_s">м/с</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="mmHg">мм рт.</string>
+    <string name="last_cities">Последние просмотренные города</string>
+    <string name="theme">Тема</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="language">Язык</string>
+    <string name="wiki">https://ru.wikipedia.org/wiki/</string>
+    <string name="browser_abs">Браузер не найден</string>
+    <string name="lang">ru</string>
+    <string name="error_connection">Ошибка соединения</string>
+    <string name="select_city">Select city</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="about_app">About application</string>
+    <string name="version">Version</string>
+    <string name="developer">Developer</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="weather">Weather</string>
+    <string name="sort_by_city">Sort by city</string>
+    <string name="sort_by_date">Sort by date</string>
+    <string name="sort_by_temperature">Sort by temperature</string>
+</resources>
