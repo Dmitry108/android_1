@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mob_search"
+        android:title="@string/select_city"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.widget.SearchView" />
+<!--    <group android:checkableBehavior="single">-->
+        <item
+            android:id="@+id/mob_sort_by_city"
+            android:title="@string/sort_by_city"
+            app:showAsAction="never"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically" />
+        <item
+            android:id="@+id/mob_sort_by_date"
+            android:title="@string/sort_by_date"
+            app:showAsAction="never"
+            android:icon="@android:drawable/ic_menu_my_calendar" />
+        <item
+            android:id="@+id/mob_sort_by_temp"
+            android:title="@string/sort_by_temperature"
+            app:showAsAction="never"
+            android:icon="@android:drawable/ic_menu_sort_by_size" />
+<!--    </group>-->
+</menu>

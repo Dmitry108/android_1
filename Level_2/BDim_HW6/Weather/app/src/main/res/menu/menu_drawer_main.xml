@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/mdw_enter_city"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/select_city" />
+        <item
+            android:id="@+id/mdw_last_cities"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/search_history" />
+        <item
+            android:id="@+id/mdw_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/settings" />
+    </group>
+    <item android:title="@string/about_app">
+        <menu>
+            <item
+                android:id="@+id/mdw_version"
+                android:title="@string/version"/>
+            <item
+                android:id="@+id/mdw_developer"
+                android:title="@string/developer"/>
+        </menu>
+    </item>
+</menu>
