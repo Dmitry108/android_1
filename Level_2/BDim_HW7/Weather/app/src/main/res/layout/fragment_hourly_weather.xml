@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/main_margin"
+
+    android:background="@drawable/fragment_back">
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:padding="@dimen/small_margin"
+    android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_hourly_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <ru.bdim.weather.views.GraphicView
+        android:id="@+id/cvw_hourly_graphic"
+        android:layout_width="@dimen/item_eight_size"
+        android:layout_height="@dimen/large_image_size"
+        app:array="@array/example_for_graphic"/>
+    </LinearLayout>
+</HorizontalScrollView>
