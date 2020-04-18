@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="txt_sky">
+        <item>Ясно</item>
+        <item>Переменная облачность</item>
+        <item>Облачно</item>
+        <item>Дождь</item>
+        <item>Молния</item>
+        <item>Снег</item>
+    </string-array>
+    <string-array name="wind_direction">
+        <item>Северный</item>
+        <item>Северо-восточный</item>
+        <item>Восточный</item>
+        <item>Юго-восточный</item>
+        <item>Южный</item>
+        <item>Юго-Западный</item>
+        <item>Западный</item>
+        <item>Северо-западный</item>
+    </string-array>
+    <string name="app_name">Погода</string>
+    <string name="ber">Берлин</string>
+    <string name="mow">Москва</string>
+    <string name="par">Париж</string>
+    <string name="prg">Прага</string>
+    <string name="lon">Лондон</string>
+    <string name="ams">Амстердам</string>
+    <string name="ath">Афины</string>
+    <string name="mad">Мадрид</string>
+    <string name="vie">Вена</string>
+    <string name="bud">Будапешт</string>
+    <string name="bru">Брюссель</string>
+    <string name="waw">Варшава</string>
+    <string name="beg">Белград</string>
+    <string name="rom">Рим</string>
+    <string name="bts">Братислава</string>
+    <string name="dub">Дублин</string>
+    <string name="zag">Загреб</string>
+    <string name="msq">Минск</string>
+    <string name="iev">Киев</string>
+    <string name="cloudly">Облачно</string>
+    <string name="choice_city">Введите город</string>
+    <string name="settings">Настройки</string>
+    <string name="extra_parameters">Дополнительные параметры</string>
+    <string name="sun_moon">Солнце и луна</string>
+    <string name="wind">Ветер</string>
+    <string name="m_s">м/с</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="mmHg">мм рт.</string>
+    <string name="last_cities">Последние просмотренные города</string>
+    <string name="theme">Тема</string>
+    <string name="light_theme">Светлая тема</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="language">Язык</string>
+    <string name="wiki">https://ru.wikipedia.org/wiki/</string>
+    <string name="browser_abs">Браузер не найден</string>
+    <string name="lang">ru</string>
+    <string name="error_connection">Ошибка соединения</string>
+    <string name="select_city">Выберите город</string>
+    <string name="open">Открыть</string>
+    <string name="delete">Удалить</string>
+    <string name="about_app">О приложении</string>
+    <string name="version">Версия</string>
+    <string name="developer">Разработчик</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="weather">Погода</string>
+    <string name="sort_by_city">Сортировать по городу</string>
+    <string name="sort_by_date">Сортировать по дате</string>
+    <string name="sort_by_temperature">Сортировать по температуре</string>
+    <string name="cancel">Отмена</string>
+    <string name="search_history">История поиска</string>
+    <string name="data_error">Ошибка получения данных</string>
+    <string name="connection_lost">Соединение потеряно</string>
+    <string name="connection_abs">Интернет доступен</string>
+    <string name="refresh_weather">Вы желаете обновить погоду?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="battery_low">Низкий заряд батареи</string>
+    <string name="hourly_forecast">Прогноз на сутки</string>
+    <string name="find_location">Найти по местоположению</string>
+    <string name="open_map">Открыть карту</string>
+    <string name="daily_forecast">Суточный прогноз</string>
+    <string name="list_empty">Список пустой</string>
+</resources>

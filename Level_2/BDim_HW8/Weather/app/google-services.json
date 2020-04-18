@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72381064893",
+    "firebase_url": "https://weather-daf27.firebaseio.com",
+    "project_id": "weather-daf27",
+    "storage_bucket": "weather-daf27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72381064893:android:b4d10e4885f754234479d4",
+        "android_client_info": {
+          "package_name": "ru.bdim.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72381064893-fd1hcd12uldttc1qnrs4nspol3r9ehrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.bdim.weather",
+            "certificate_hash": "f9df9b831cbcdc379dbab0d408de85543d31f788"
+          }
+        },
+        {
+          "client_id": "72381064893-osquc18ortfb48mtn0tajkup948skk2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu1LYTy1S4To9vm8FGs90jIoXfbub73ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72381064893-osquc18ortfb48mtn0tajkup948skk2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
